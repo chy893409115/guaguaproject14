@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+	<header id="header-top">
+	  <div class="bg-color">
+		  <ul>
+		  	<li><a href="">guagua手机官网</a></li>
+		  	<li><a href="">guagua社区</a></li>
+		  	<li><a href="">商城活动</a></li>
+		  </ul>
+		</div>
+	</header>
+	<nav id="nav" style="height:80px">
+	  <div class="">
+		  <p></p>
+		</div>
+	</nav>
+	<section id="main">
+	  <div class="bg">
+		  <div class="main-content">
+			  <div class="main-content-top">
+			    <img src="images/logo/guagua.jpg" alt="" width="90px" height="75px">
+				</div>
+			  <form id="use">
+				  <input type="text" id="uname" class="user" name="user" placeholder="请输入手机号码" onfocus="this.placeholder=''" onblur="this.placeholder='请输入手机号码/邮箱/用户名'" required autofocus>
+					<img src="images/login/yhm.png" alt="">
+					<br>
+					<span id="showResult"></span>
+					<br>
+					<input type="password" id="upwd" class="pwd" name="pwd" placeholder="请输入帐号密码" onfocus="this.placeholder=''" onblur="this.placeholder='请输入帐号密码'">				
+					<img src="images/login/mm.png" alt="">
+					
+					<br>
+					<div id="question">
+					  <span id="showResult1"></span>
+					  <a href="">遇到问题需要解决</a>
+					</div>
+					<input type="button" id="bt-login" class="login-in" value="登录" name="login" href="index.html">
+					<br>
+					<a href="reg1.html">
+					  <input type="button" class="new" id="new" value="注册guagua账号" name="new" >
+					</a>
+					<div class="chose">
+           <input type="checkbox" class="checkbox" id="ck_rmbUser" value="0">自动登录
+           <span>忘记密码？</span>
+					 <div id="other-method"><a href="">其它方式登录</a></div>
+          </div> 
+					
+					<div class="images-logo">
+					  <p><a href=""><img src="images/login/ico_qq.jpg" alt=""></a></p>
+					  <p><a href=""><img src="images/login/ico_wb.jpg" alt=""></a></p>
+					  <p><a href=""><img src="images/login/ico_wx.jpg" alt=""></a></p>
+					  <p><a href=""><img src="images/login/ico_alipay.jpg" alt=""></a></p>
+					</div>
+					<div class="footer-other">
+					  <p>© 2015 - 2017 杭州呱呱通信科技有限公司 版权所有 浙ICP备08132110号-1</p>
+					</div>
+				</form>
+			</div>
+		</div>
+	</section>
+  <div class="footer">
+    <div class="loading">
+      <img src="img/loading.gif" alt="加载中..." >
+    </div>
+  </div>
+</body>
+<script src="js/ajax.js"></script>
+<script src="js/jquery-1.11.3.js"></script>
+<script src="js/jquery.cookie.js"></script>
+<script src="js/login.js"></script>
+</html>

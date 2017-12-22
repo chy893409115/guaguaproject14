@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/reg1.css">
+</head>
+<body>
+	<header id="header-top">
+	  <div class="bg-color">
+		  <ul>
+		  	<li><a href="">guagua官网</a></li>
+		  	<li><a href="">guagua社区</a></li>
+		  	<li><a href="">商城活动</a></li>
+		  </ul>
+		</div>
+	</header>
+	<div class="bg">
+  <section >
+        <table></table>
+        <div >
+            <table></table>
+            <ul>
+                <form id="form1">
+                    <li><input type="text" name="uname" id="uname" placeholder="请输入您想要注册的用户名"/></li><span></span>
+                    <label for="uname">* 用户名由3~12位数字，字母或下划线组成。</label>
+                    <li><input type="password" name="upwd" id="upwd" placeholder="请输入您的密码"/></li><span></span>
+                    <label for="upwd">* 密码由6~12位数字，字母或下划线组成。</label>
+                    <li><input type="password" name="reg_pwd" id="reg_pwd" placeholder="请再次输入您的密码"/></li><span></span>
+                    <label for="reg_pwd">* 两次密码一定要一致哦</label>
+                    <li><input type="text" name="email" id="email" placeholder="请输入您的常用邮箱"/></li><span></span>
+                    <label for="email">* 请尽量使用您的常用邮箱，以便更好的为您服务</label>
+                    <li id="vcode_li"><input type="text" name="vcode" id="vcode" placeholder="请输入验证码"/></li><img src="data/code_gg.php" title="点击刷新" id="img_code"><span id="code_span"></span>
+                    <label for="vcode">* 验证码为四位数</label>
+                    <input type="checkbox" id="agree-info">我同意本站的使用条款<br>
+                    <button id="btnSubmit" type="button" >注&nbsp;&nbsp;&nbsp;册</button>
+                    <a href="login.html">已有账号？请登录</a>
+                </form>
+            </ul>
+        </div>
+    </section>
+		</div>
+		<script src="js/ajax.js"></script>
+		<script src="js/jquery-1.11.3.js"></script>
+		<script src="js/register1.js"></script>
+</body>
+</html>
